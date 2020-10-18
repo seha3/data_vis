@@ -1,0 +1,162 @@
+[
+    {
+      "id": "1",
+      "name": "AGUASCALIENTES",
+      "estados_codigo": "AGS"
+    },
+    {
+      "id": "2",
+      "name": "BAJA CALIFORNIA",
+      "estados_codigo": "BCN"
+    },
+    {
+      "id": "3",
+      "name": "BAJA CALIFORNIA SUR",
+      "estados_codigo": "BCS"
+    },
+    {
+      "id": "4",
+      "name": "CAMPECHE",
+      "estados_codigo": "CAM"
+    },
+    {
+      "id": "5",
+      "name": "CHIAPAS",
+      "estados_codigo": "CHS"
+    },
+    {
+      "id": "6",
+      "name": "CHIHUAHUA",
+      "estados_codigo": "CHI"
+    },
+    {
+      "id": "7",
+      "name": "COAHUILA",
+      "estados_codigo": "COA"
+    },
+    {
+      "id": "8",
+      "name": "COLIMA",
+      "estados_codigo": "COL"
+    },
+    {
+      "id": "9",
+      "name": "CIUDAD DE MÉXICO",
+      "estados_codigo": "CDMX"
+    },
+    {
+      "id": "10",
+      "name": "DURANGO",
+      "estados_codigo": "DGO"
+    },
+    {
+      "id": "11",
+      "name": "ESTADO DE MEXICO",
+      "estados_codigo": "EM"
+    },
+    {
+      "id": "12",
+      "name": "GUANAJUATO",
+      "estados_codigo": "GTO"
+    },
+    {
+      "id": "13",
+      "name": "GUERRERO",
+      "estados_codigo": "GRO"
+    },
+    {
+      "id": "14",
+      "name": "HIDALGO",
+      "estados_codigo": "HGO"
+    },
+    {
+      "id": "15",
+      "name": "JALISCO",
+      "estados_codigo": "JAL"
+    },
+    {
+      "id": "16",
+      "name": "MICHOACAN",
+      "estados_codigo": "MICH"
+    },
+    {
+      "id": "17",
+      "name": "MORELOS",
+      "estados_codigo": "MOR"
+    },
+    {
+      "id": "18",
+      "name": "NAYARIT",
+      "estados_codigo": "NAY"
+    },
+    {
+      "id": "19",
+      "name": "NUEVO LEON",
+      "estados_codigo": "NL"
+    },
+    {
+      "id": "20",
+      "name": "OAXACA",
+      "estados_codigo": "OAX"
+    },
+    {
+      "id": "21",
+      "name": "PUEBLA",
+      "estados_codigo": "PUE"
+    },
+    {
+      "id": "22",
+      "name": "QUERETARO",
+      "estados_codigo": "QRO"
+    },
+    {
+      "id": "23",
+      "name": "QUINTANA ROO",
+      "estados_codigo": "QR"
+    },
+    {
+      "id": "24",
+      "name": "SAN LUIS POTOSI",
+      "estados_codigo": "SLP"
+    },
+    {
+      "id": "25",
+      "name": "SINALOA",
+      "estados_codigo": "SIN"
+    },
+    {
+      "id": "26",
+      "name": "SONORA",
+      "estados_codigo": "SON"
+    },
+    {
+      "id": "27",
+      "name": "TABASCO",
+      "estados_codigo_buro": "TAB"
+    },
+    {
+      "id": "28",
+      "name": "TAMAULIPAS",
+      "estados_codigo": "TAM"
+    },
+    {
+      "id": "29",
+      "name": "TLAXCALA",
+      "estados_codigo": "TLAX"
+    },
+    {
+      "id": "30",
+      "name": "VERACRUZ",
+      "estados_codigo": "VER"
+    },
+    {
+      "id": "31",
+      "name": "YUCATAN",
+      "estados_codigo": "YUC"
+    },
+    {
+      "id": "32",
+      "name": "ZACATECAS",
+      "estados_codigo": "ZAC"
+    }
+  ]
