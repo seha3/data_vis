@@ -46,6 +46,11 @@ function BarChart({ width, height, data }){
                 .attr("y", (d) => height)
                 .attr("height", 0)
             .remove()
+
+        // selection 
+        // .data(data).enter()
+        //     .append("text")
+
     }
 
 

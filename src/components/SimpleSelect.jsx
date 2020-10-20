@@ -9,7 +9,7 @@ export default class SimpleSelect extends Component {
       estados: "",
       year: "",
       sort: "",
-      data: ""
+      data: []
     }
     // this.handleChange = this.handleChange.bind(this)
   }
