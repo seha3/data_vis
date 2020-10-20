@@ -1,5 +1,7 @@
 import * as d3 from 'd3';
 import React, { useRef, useEffect } from 'react';
+import '../App.css';
+
 
 function BarChart({ width, height, data }){
     const ref = useRef();
@@ -55,9 +57,26 @@ function BarChart({ width, height, data }){
 
 
     return (
-        <div className="chart">
+        <div>
+          <div className="chart">
             <svg ref={ref}>
             </svg>
+          </div>
+          <br />
+          <div>
+            <div>
+              <span className="text-secondary h5">Promedio IDH:</span>
+              <span className="text-secondary"> _____</span>
+            </div>
+            <div>
+              <span className="text-secondary h5">IDH más alto:</span>
+              <span className="text-secondary"> _____</span>
+            </div>
+            <div>
+              <span className="text-secondary h5">IDH más bajo:</span>
+              <span className="text-secondary"> _____</span>
+            </div>
+          </div>
         </div>
         
     )
