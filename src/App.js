@@ -5,10 +5,14 @@ import SimpleSelect from './components/SimpleSelect'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Data Vis</h1>
-      <SimpleSelect />
+    <div>
+      <div className="App">
+        <h1 className="text-secondary font-weight-bold">Índice de Desarrollo Humano</h1>
+      </div>
+      <div className="App">
+        <SimpleSelect />
      
+      </div>
     </div>
   );
 }
