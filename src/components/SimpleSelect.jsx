@@ -1,10 +1,21 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 export default class SimpleSelect extends Component {
-    static propTypes = {
-        prop: PropTypes
+  constructor(props) {
+    super(props)
+    this.state = {
+      id: "",
+      estados: "",
+      year: "",
+      sort: "",
+      data: ""
     }
+    // this.handleChange = this.handleChange.bind(this)
+  }
+    // static propTypes = {
+    //     prop: PropTypes
+    // }
 
     render() {
         return (
@@ -52,9 +63,9 @@ export default class SimpleSelect extends Component {
                         Año
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a className="dropdown-item" href="/">1990 -1999</a>
-                        <a className="dropdown-item" href="/">2000 - 2009</a>
-                        <a className="dropdown-item" href="/">2010 - 2019</a>
+                        <a className="dropdown-item" href="/" year="1">1990 -1999</a>
+                        <a className="dropdown-item" href="/" year="2">2000 - 2009</a>
+                        <a className="dropdown-item" href="/" year="3">2010 - 2019</a>
                     </div>
                 </div>
             
@@ -63,9 +74,9 @@ export default class SimpleSelect extends Component {
                         Ordenar Datos
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a className="dropdown-item" href="/">Ascendente</a>
-                        <a className="dropdown-item" href="/">Descendente</a>
-                        <a className="dropdown-item" href="/">Alfabeticamente</a>
+                        <a className="dropdown-item" href="/" sort="Ascendente">Ascendente</a>
+                        <a className="dropdown-item" href="/" sort="Descendente">Descendente</a>
+                        <a className="dropdown-item" href="/" sort="Alfabeticamente">Alfabeticamente</a>
                     </div>
                 </div>
             </div>
